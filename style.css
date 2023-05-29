@@ -233,9 +233,8 @@ div .writeup{
   }
   
   .events_item .thumb span.price em {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
-    font-style: normal;
     vertical-align: top;
   }
   
@@ -249,7 +248,7 @@ div .writeup{
   } 
   
   .events_item .down-content {
-    padding: 20px 30px 25px 30px;
+    padding: 20px 20px 30px 20px;
   }
   
   .events_item .down-content span.author {
