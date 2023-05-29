@@ -158,7 +158,37 @@ div .writeup{
 
 /* LATEST COURSES */
 
-/* .event_filter li{
-    display: flex !important;
-    
-} */
+.event_filter{
+    background-color: #7791a1;
+    border-radius: 20px;
+    width: 40vw;
+    margin: 3rem 0 5rem 18rem;
+}
+.event_filter li{
+    list-style: none;
+    margin: 6px;
+}
+
+
+.event_filter li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: purple;
+}
+
+.event_filter li a:hover{
+    color: #fff;
+}
+
+.thumb a img{
+    width: 20rem;
+}
+
+.event_outer{
+    background-color: #7791a167;
+    border-radius: 10px;
+}
+
+.down-content h4{
+      font-size: 15px;
+}
