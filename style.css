@@ -161,34 +161,115 @@ div .writeup{
 .event_filter{
     background-color: #7791a1;
     border-radius: 20px;
-    width: 40vw;
-    margin: 3rem 0 5rem 18rem;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
 }
 .event_filter li{
     list-style: none;
-    margin: 6px;
+    padding: 6px;
 }
-
 
 .event_filter li a{
     text-decoration: none;
+    margin: 0 auto;
+    padding-left: 15px;
     font-size: 12px;
     color: purple;
 }
-
 .event_filter li a:hover{
     color: #fff;
 }
 
-.thumb a img{
-    width: 20rem;
-}
-
-.event_outer{
-    background-color: #7791a167;
-    border-radius: 10px;
-}
-
-.down-content h4{
+/* .down-content h4{
       font-size: 15px;
-}
+} */
+
+.events_item .thumb {
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+  
+  .events_item .thumb img {
+    width: 100%;
+    /* margin-bottom: -5px; */
+  }
+  
+  .events_item .thumb span.category {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #198754;
+    background-color: rgba(250, 250, 250, 0.95);
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    display: inline-block;
+  }
+  
+  .events_item .thumb span.price {
+    position: absolute;
+    right: -30px;
+    top: -50px;
+    background-color: #198754;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all .3s;
+  }
+  
+  .events_item .thumb span.price h6 {
+    margin-top: 72px;
+    margin-left: 22px;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .events_item .thumb span.price em {
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    vertical-align: top;
+  }
+  
+  .events_item {
+    background-color: #f1f0fe;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+  .events_item .down-content {
+    padding: 20px 30px 25px 30px;
+  }
+  
+  .events_item .down-content span.author {
+    color: #198754;
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: 6px;
+  }
+  
+  .events_item .down-content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    transition: all .3s;
+  }
+  
+  .events_item:hover .down-content h4 {
+    color: #198754;
+  }
+  
+  .events_item:hover .thumb span.price {
+    transform: scale(1.2);
+  }
+  
