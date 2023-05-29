@@ -182,11 +182,22 @@ div .writeup{
 
 .thumb a img{
     width: 20rem;
+    border-radius: 10px;
 }
 
 .event_outer{
     background-color: #7791a167;
     border-radius: 10px;
+    width: 30% !important;
+    margin: 0px;
+    margin-left: -10 !important;
+    position: relative;
+}
+
+.thumb .category{
+    position: absolute;
+    top: 10px
+    
 }
 
 .down-content h4{
