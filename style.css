@@ -366,13 +366,13 @@ div .wrapper{
 
   /* TESTIMONIAL */
 
-  .testimonials {
+  .testimonial {
     position: relative;
     padding: 80px 0px;
     margin-top: 150px;
   }
   
-  .testimonials:before {
+  .testimonial:before {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -386,23 +386,23 @@ div .wrapper{
     border-bottom-left-radius: 500px;
 }
   
-  .testimonials .section-heading {
+  .testimonial .section-heading {
     margin-bottom: 0px;
     margin-left: 60px;
     vertical-align: middle;
   }
   
-  .testimonials .section-heading p {
+  .testimonial .section-heading p {
     margin-top: 50px;
   }
   
-  .testimonials .item {
+  .testimonial .item {
     background-color: #7791a1;
     border-radius: 25px;
     padding: 27px;
 }
   
-  .testimonials .item p {
+  .testimonial .item p {
     font-size: 18px;
     line-height: 40px;
     color: #fff;
@@ -411,28 +411,28 @@ div .wrapper{
     margin-bottom: 40px;
   }
   
-  .testimonials .item img {
+  .testimonial .item img {
     border-radius: 50%;
     max-width: 100px;
     float: left;
     margin-right: 25px;
   }
   
-  .testimonials .item span {
+  .testimonial .item span {
     display: inline-block;
     margin-top: 20px;
     font-size: 15px;
     color: #fff;
   }
   
-  .testimonials .item h4 {
+  .testimonial .item h4 {
     color: #fff;
     font-size: 22px;
     font-weight: 600;
     margin-top: 8px;
   }
   
-  .testimonials .owl-nav {
+  .testimonial .owl-nav {
     position: absolute;
     top: 50%;
     transform: translateY(-5px);
@@ -440,8 +440,8 @@ div .wrapper{
     text-align: right;
   }
   
-  .testimonials .owl-nav .owl-prev i,
-  .testimonials .owl-nav .owl-next i {
+  .testimonial .owl-nav .owl-prev i,
+  .testimonial .owl-nav .owl-next i {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -455,13 +455,13 @@ div .wrapper{
     transition: all .3s;
   }
   
-  .testimonials .owl-nav .owl-prev i {
+  .testimonial .owl-nav .owl-prev i {
     position: absolute;
     bottom: 65px;
   }
   
-  .testimonials .owl-nav .owl-prev i:hover,
-  .testimonials .owl-nav .owl-next i:hover {
+  .testimonial .owl-nav .owl-prev i:hover,
+  .testimonial .owl-nav .owl-next i:hover {
     opacity: 1;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
   }
