@@ -300,9 +300,9 @@ div .wrapper{
 /* TEAM */
 
 .team {
-    margin-top: 100px;
-      padding-top: 140px;
-  }
+  margin-top: 7rem;
+  padding-top: 140px;
+}
   
   .team-member {
     position: relative;
@@ -402,14 +402,14 @@ div .wrapper{
     padding: 27px;
 }
   
-  .testimonial .item p {
-    font-size: 18px;
-    line-height: 40px;
-    color: #fff;
-    font-style: italic;
-    font-weight: 300;
-    margin-bottom: 40px;
-  }
+.testimonial .item p {
+  font-size: 14px;
+  line-height: 32px;
+  color: #fff;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 9px;
+}
   
   .testimonial .item img {
     border-radius: 50%;
@@ -468,6 +468,10 @@ div .wrapper{
  
   
   /* EVENTS */
+
+  #events{
+    margin-top: 13rem;
+  }
 
   .events .section-heading {
     margin-bottom: 100px;
@@ -557,10 +561,10 @@ div .wrapper{
   /* CONTACT */
 
   .contact-us {
-    margin-top: 80px;
+    margin-top: 14rem;
     position: relative;
-    padding: 50px 0px;
-  }
+    padding: 12px 0px;
+}
   
   .contact-us:before {
     position: absolute;
@@ -722,6 +726,7 @@ div .wrapper{
     margin-bottom: 30px;
     position: relative;
     z-index: 3;
+    resize: none;
   }
   
   #contact-form textarea::placeholder {
