@@ -819,3 +819,7 @@ div .wrapper{
     z-index: 2;
   }
   
+  #form-submit a{
+    color: #198754 !important;
+    text-decoration: none !important;
+  }
